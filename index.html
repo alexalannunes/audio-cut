@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cortador de Áudio Web — Corte áudios 100% no navegador</title>
+    <meta
+      name="description"
+      content="Editor e cortador de áudio gratuito e 100% no navegador. Seus arquivos nunca saem do seu computador. Rápido, seguro e sem limites."
+    />
+    <meta property="og:title" content="Cortador de Áudio Web — 100% no navegador" />
+    <meta
+      property="og:description"
+      content="Corte áudios direto no navegador. Seus arquivos nunca saem do seu computador."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Tipografia Inter e JetBrains Mono para números -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- lamejs via CDN para codificação MP3 100% no navegador -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lamejs/1.2.1/lame.all.min.js"></script>
+  </head>
+  <body class="bg-[#141418] text-[#f1f1f5] font-['Inter',sans-serif] min-h-screen antialiased selection:bg-[#f5c518]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

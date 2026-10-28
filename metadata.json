@@ -1,0 +1,6 @@
+{
+  "name": "Cortador de Áudio Web",
+  "description": "Editor e cortador de áudio 100% no navegador. Seus arquivos nunca saem do seu computador.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
